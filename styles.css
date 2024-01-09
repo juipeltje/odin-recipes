@@ -2,6 +2,10 @@
     background-color: #2E3440;
 }
 
+body {
+    text-align: center;
+}
+
 .h1,
 .h3,
 .h4,
@@ -17,6 +21,7 @@
     color: #8FBCBB;
     background-color: #2E3440;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
 
 #img-pancakes {
@@ -32,4 +37,58 @@
 #img-pizza {
     height: auto;
     width: 900px;
+}
+
+#img-pancakes, 
+#img-paella, 
+#img-pizza {
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.h1 {
+    display: inline-block;
+    text-align: center;
+    background-color: #282828;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.list.link {
+    margin-left: 720px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.h3#pancakes,
+.p#pancakes,
+.list.unordered#pancakes,
+.list.ordered#pancakes {
+    margin-left: 350px;
+    text-align: left;
+}
+
+.h3#paella,
+.h4#paella,
+.p#paella,
+.list.unordered#paella,
+.list.ordered#paella {
+    margin-left: 450px;
+    text-align: left;
+}
+
+.h3#pizza,
+.h4#pizza,
+.p#pizza,
+.list.unordered#pizza,
+.list.ordered#pizza {
+    margin-left: 400px;
+    text-align: left;
 }

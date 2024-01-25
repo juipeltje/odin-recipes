@@ -2,10 +2,6 @@
     background-color: #2E3440;
 }
 
-body {
-    text-align: center;
-}
-
 .h1,
 .h3,
 .h4,
@@ -16,49 +12,48 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.list.link,
 .link {
     color: #8FBCBB;
     background-color: #2E3440;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
 }
 
-#img-pancakes {
+#img-pancakes,
+#img-pancakes-index {
     height: auto;
     width: 1000px;
 }
 
-#img-paella {
+#img-paella,
+#img-paella-index {
     height: auto;
     width: 800px;
 }
 
-#img-pizza {
+#img-pizza,
+#img-pizza-index {
     height: auto;
     width: 900px;
 }
 
 #img-pancakes, 
 #img-paella, 
-#img-pizza {
+#img-pizza,
+#img-pancakes-index,
+#img-paella-index,
+#img-pizza-index {
     margin: auto;
     display: block;
     border-radius: 20px;
 }
 
 .h1 {
-    display: inline-block;
     text-align: center;
     background-color: #282828;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 700px;
+    margin-right: 700px;
     border-radius: 20px;
-}
-
-.list.link {
-    margin-left: 720px;
 }
 
 ul li,
@@ -91,4 +86,42 @@ ol li {
 .list.ordered#pizza {
     margin-left: 400px;
     text-align: left;
+}
+
+#img-pancakes-index {
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#img-paella-index {
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#img-pizza-index {
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.link1 {
+    margin-left: 450px;
+}
+
+.link2 {
+    margin-left: 1270px;
+}
+
+.link3 {
+    margin-left: 400px;
+}
+
+.link1,
+.link2,
+.link3 {
+    color: #8FBCBB;
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 20px;
 }
